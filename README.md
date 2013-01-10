@@ -1,2 +1,2 @@
-lightoak text 2
+lightoak
 ========
