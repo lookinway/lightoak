@@ -94,13 +94,15 @@ body {
 }
 
 .td_tree_search{
-	text-align: center;
+	text-align: left;
 }
 .tree_search{
-	font-size: 20px;
-	width: 200px;
+	font-size: 14px;
+	width: 300px;
 	border-radius: 0;
-	margin: 10px;
+	margin: 15px;
+	border: none;
+	padding: 5px;
 }
 
 .tree_view{
