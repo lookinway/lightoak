@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'Lobster13Regular';
+	src: url('fonts/Lobster-fontfacekit/Lobster_1.3-webfont.eot');
+	src: url('fonts/Lobster-fontfacekit/Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Lobster-fontfacekit/Lobster_1.3-webfont.woff') format('woff'), url('fonts/Lobster-fontfacekit/Lobster_1.3-webfont.ttf') format('truetype'), url('fonts/Lobster-fontfacekit/Lobster_1.3-webfont.svg#Lobster13Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.px960 td {
+	padding: 20px;
+	border-bottom: 1px solid gray;
+}
+
+.px960 {
+	width: 960px;
+	margin: 60px auto 0 auto;
+	background: white;
+}
+
+.top_menu_table {
+	border-spacing: 0;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+.top_menu_table td {
+	padding: 0;
+}
+
+.top_menu {
+	position: fixed;
+	top: 0;
+	border-bottom: 4px solid #4F960D;
+	background: #59A80F;
+	width: 960px;
+	height: 60px;
+	left: 50%;
+	margin-left: -480px;
+	color: white;
+
+	-webkit-user-select: -moz-none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: -moz-none;
+	user-select: none;
+}
+
+.place_now {
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px black;
+	width: 840px;
+}
+
+.menu_profile {
+	width: 60px;
+}
+
+.menu_add {
+	width: 60px;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+	display: inline-block;
+}
+
+.menu_add:hover,.menu_profile:hover,.place_now:hover {
+	cursor: pointer;
+}
+
+.menu_add:hover,.menu_profile:hover {
+	background: #4F960D;
+}
+
+.dropdown_menu {
+	background: #4F960D;
+	text-align: left;
+}
+
+.table_tree {
+	font-family: calibri;
+	width: 100%;
+	border-spacing: 0;
+}
+.table_tree td{
+	padding: 0;
+}
+
+.td_tree_search{
+	text-align: center;
+}
+.tree_search{
+	font-size: 20px;
+	width: 200px;
+	border-radius: 0;
+	margin: 10px;
+}
+
+.tree_view{
+	margin: 0 15px 15px 15px;
+	text-align: justify;
+	/*line-height: 20px;*/
+}
+
+.predmet{
+	/*white-space: nowrap;*/
+	color: white;
+}
