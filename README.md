@@ -1,2 +1,2 @@
-lightoak tree ver 0.1
+lightoak table-styled tree-list
 ========

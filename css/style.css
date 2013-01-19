@@ -5,6 +5,20 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+    font-family: 'Casper_B';
+    src:  url('fonts/Casper/Casper_B.ttf');
+}
+
+@font-face {
+    font-family: 'Casper_R'; 
+    src:  url('fonts/Casper/Casper_R.ttf');
+}
+
+@font-face {
+    font-family: 'Casper_It'; 
+    src:  url('fonts/Casper/Casper_It.ttf');
+}
 
 body {
 	padding: 0;
@@ -14,12 +28,16 @@ body {
 .px960 td {
 	padding: 20px;
 	border-bottom: 1px solid gray;
+	text-indent: 25px;
+	text-align: justify;
 }
 
 .px960 {
 	width: 960px;
 	margin: 60px auto 0 auto;
 	background: white;
+	font-family: 'Casper_It', regular;
+	font-size: 14px;
 }
 
 .top_menu_table {
@@ -51,11 +69,14 @@ body {
 }
 
 .place_now {
-	font-family: 'Lobster', cursive;
+	font-family: 'Casper_B', regular;
 	color: white;
 	font-size: 25px;
 	text-shadow: 1px 1px 1px black;
-	width: 840px;
+	height: 60px;
+}
+.place {
+	padding: 0 0 0 84px;
 }
 
 .menu_profile {
@@ -66,9 +87,7 @@ body {
 	width: 60px;
 	color: white;
 	font-weight: bold;
-	font-size: 40px;
-	line-height: 60px;
-	display: inline-block;
+	font-size: 25px;
 }
 
 .menu_add:hover,.menu_profile:hover,.place_now:hover {
@@ -79,31 +98,73 @@ body {
 	background: #4F960D;
 }
 
+.back_button{
+	position: absolute;
+	margin-left: 20px;
+	background: #4f960d;
+	padding: 7px;
+	font-size: 20px; 
+	z-index: 1;
+	top: 11px;
+}
+
 .dropdown_menu {
-	background: #4F960D;
 	text-align: left;
+}
+
+.search {
+	width: 64px;
+}
+.search input{
+	font-size: 14px;
+	padding: 7px;
+	font-family: 'Casper_It', regular;
+	border: none;
+	width: 50px;
+	margin: 0 10px;
+	animation-duration: 3s;
+}
+
+.tree {
+	height: 308px;
+	overflow: scroll; 
+	width: 840px;
+	/*background: #59A80F;*/
+	background: #4F960D;
+	margin: 4px auto;
+	border-bottom: 4px solid #4F960D;
+	font-family: 'Casper_B', regular;
 }
 
 .table_tree {
-	font-family: calibri;
 	width: 100%;
 	border-spacing: 0;
+	font-weight: 400;
 }
 .table_tree td{
-	padding: 0;
+	height: 60px;
+	font-size: 25px;
 }
 
-.td_tree_search{
-	text-align: left;
+.table_tree tbody td {
+	border-bottom: 1px solid #daf9bd;
+	padding: 0 0 0 20px;
+	text-shadow: 1px 1px 1px black;
 }
-.tree_search{
+
+.table_tree tbody td:hover{
+	cursor: pointer;
+}
+
+.table_tree tfoot td {
 	font-size: 14px;
-	width: 300px;
-	border-radius: 0;
-	margin: 15px;
-	border: none;
-	padding: 5px;
+	text-align: center;
 }
+
+.go_next {
+
+}
+
 
 .tree_view{
 	margin: 0 15px 15px 15px;
@@ -115,10 +176,4 @@ body {
 	/*white-space: nowrap;*/
 	color: white;
 	text-decoration: none;
-    display: inline-block;
-    border-bottom: 2px dotted white;
-}
-
-.predmet:hover{
-	border-bottom: 2px dotted #6FB82F;
 }
