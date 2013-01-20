@@ -25,6 +25,59 @@ body {
 	margin: 0;
 }
 
+.logo{
+	position: relative;
+	margin: 100px auto 0 auto;
+	font-family: 'Casper_B';
+	border-spacing: 0;
+}
+.logo img{
+	opacity: 1;
+	width: 80px;
+}
+.logo .tree_text {
+	font-size: 70px;
+	padding-left: 10px;
+}
+.logo button{
+	border: none;
+	border-bottom: 4px solid #659024;
+	background: #7DB710;
+	color: white;
+	width: 370px;
+	font-size: 25px;
+	padding: 5px;
+    font-family: 'Casper_R'; 
+    cursor: pointer;	
+    text-shadow: 1px 1px 1px black;
+    border-radius: 3px;
+}
+.sing_input {
+	border-radius: 3px;
+	width: 360px;
+	padding: 5px;
+    font-family: 'Casper_R'; 
+    font-size: 25px;
+}
+
+.name {
+	width: 167px;
+}
+
+.stripe_or_left {
+	border-bottom: 2px solid #C5942B;
+	width: 50px;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 9px;
+}
+.stripe_or_right {
+	border-bottom: 2px solid #C5942B;
+	width: 50px;
+	position: absolute;
+	margin-left: 205px;
+	margin-top: -8px;
+}
 .px960 td {
 	padding: 20px;
 	border-bottom: 1px solid gray;
@@ -37,7 +90,7 @@ body {
 	margin: 60px auto 0 auto;
 	background: white;
 	font-family: 'Casper_It', regular;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .top_menu_table {
@@ -98,15 +151,15 @@ body {
 	background: #4F960D;
 }
 
-.back_button{
+/*.back_button{
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 80px;
 	background: #4f960d;
 	padding: 7px;
 	font-size: 20px; 
 	z-index: 1;
 	top: 11px;
-}
+}*/
 
 .dropdown_menu {
 	text-align: left;
@@ -123,12 +176,13 @@ body {
 	width: 50px;
 	margin: 0 10px;
 	animation-duration: 3s;
+	border-radius: 3px;
 }
 
 .tree {
 	height: 308px;
 	overflow: scroll; 
-	width: 840px;
+	width: 960px;
 	/*background: #59A80F;*/
 	background: #4F960D;
 	margin: 4px auto;
